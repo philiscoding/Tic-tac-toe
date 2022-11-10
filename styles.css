@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 300px;
+    margin: 0 auto;
+
+}
+.game-board div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
